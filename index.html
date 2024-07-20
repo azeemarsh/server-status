@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>home page</title>
+        <link rel="icon" type="image/x-icon" href="../1.png">
+        <style>
+            .img1{
+              height: 60px;
+              position: absolute;
+              left: 60px;
+              top: 10px;
+
+            }
+            .other{
+                text-decoration: none;
+                color: black;
+                
+                position:absolute;
+                top: 25px;
+                right: 1110px;
+                font-family:sans-serif;
+                font-weight:bold;
+            }
+            .siwg{
+                text-decoration: none;
+                color: black;
+                position: absolute;
+                right: 650px;
+                top: 25px;
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+            .search{
+                text-decoration: none;
+                color: black;
+                position: absolute;
+                right: 500px;
+                top: 25px;
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+            .offers{
+                text-decoration: none;
+                color: black;
+                position: absolute;
+                right: 400px;
+                top: 25px;
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+            .help{
+                text-decoration: none;
+                color: black;
+                position: absolute;
+                right: 300px;
+                top: 25px;
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+            .sign{
+                text-decoration: none;
+                color: black;
+                position: absolute;
+                right: 190px;
+                top: 25px;
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+            .cart{
+                text-decoration: none;
+                color: black;
+                position: absolute;
+                right: 90px;
+                top: 25px;
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+            div{
+                height: 50px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-grow: 1;
+                flex-basis: 200;
+                
+            }
+            .p1{
+                position:absolute;
+                top: 70px;
+                right: 950px;
+                font-family: sans-serif;
+                font-weight: bolder;
+                font-size: 22px;
+            }
+            .img2{
+                height:180px;
+                position: absolute;
+                bottom:300px;
+                right:1000px;
+            }
+            .img3{
+                height:140px;
+                position: absolute;
+                bottom:320px;
+                right: 750px;
+            }
+            .img4{
+                height:150px;
+                position: absolute;
+                bottom:320px;
+                right: 550px;
+            }
+            .img5{
+                height:125px;
+                position: absolute;
+                bottom:328px;
+                right: 310px;
+            }
+            .img6{
+                height:170px;
+                position: absolute;
+                bottom:300px;
+                right: 10px;   
+            }.p2{
+                 position:absolute;
+                top: 400px;
+                right: 845px;
+                font-family: sans-serif;
+                font-weight: bolder;
+                font-size: 22px;
+            }
+            .other:hover{
+                color: rgb(255, 60, 0);
+                border-radius: 30px;
+                width: 50px;
+                text-align: center;
+               /* border-image: fill 0 linear-gradient(rgba(39, 224, 49, 0.2),#cabbbb);*/
+
+            }
+            .siwg:hover{
+                color: rgb(255, 60, 0);
+                border-radius: 30px;
+                width: 170px;
+                text-align: center;
+               /* border-image: fill 0 linear-gradient(rgba(39, 224, 49, 0.2),#cabbbb);*/
+
+            }
+            .search:hover{
+                color: rgb(255, 60, 0);
+                border-radius: 30px;
+                width: 65px;
+                text-align: center;
+              /*  border-image: fill 0 linear-gradient(rgba(39, 224, 49, 0.2),#cabbbb);*/
+
+            }
+            .offers:hover{
+                color: rgb(255, 60, 0);
+                border-radius: 30px;
+                width: 55px;
+                text-align: center;
+              /*  border-image: fill 0 linear-gradient(rgba(39, 224, 49, 0.2),#cabbbb);*/
+
+            }
+            .help:hover{
+                color: rgb(255, 60, 0);
+                border-radius: 30px;
+                width: 50px;
+                text-align: center;
+                /*border-image: fill 0 linear-gradient(rgba(39, 224, 49, 0.2),#cabbbb);*/
+
+            }
+            .sign:hover{
+                color: rgb(255, 60, 0);
+                border-radius: 30px;
+                width: 70px;
+                text-align: center;
+                /*border-image: fill 0 linear-gradient(rgba(39, 224, 49, 0.2),#cabbbb);*/
+
+            }
+            .cart:hover{
+                color: rgb(255, 60, 0);
+                border-radius: 30px;
+                width: 50px;
+                text-align: center;
+               /* border-image: fill 0 linear-gradient(rgba(39, 224, 49, 0.2),#cabbbb);*/
+            }
+            .img7{
+                height: 200px;
+                width: 250px;
+                position: absolute;
+                top: 500px;
+                left: 150px;
+                border-radius: 20px;
+            }
+            .img8{
+                height: 200px;
+                width: 250px;
+                position: absolute;
+                top: 500px;
+                left: 550px;
+                border-radius: 20px;
+            }
+            .img9{
+                height: 200px;
+                width: 250px;
+                position: absolute;
+                top: 500px;
+                left: 950px;
+                border-radius: 20px;
+            }
+            .p3{
+                height:100px;
+                position:absolute;
+                top: 700px;
+                right: 890px;
+                font-family: sans-serif;
+                font-size: 15px;
+                font-weight: 600;
+            }
+            .p4{
+                height:100px;
+                position:absolute;
+                top: 700px;
+                left: 565px;
+                font-family: sans-serif;
+                font-size: 15px;
+                font-weight: 600;
+            }
+            .p5{
+                height:100px;
+                position:absolute;
+                top: 700px;
+                right: 170px;
+                font-family: sans-serif;
+                font-size: 15px;
+                font-weight: 600; 
+            }
+           /* .search::before{
+                content: url(../12);
+            }*/
+
+        </style>
+    </head>
+
+    <body>
+       <div style="overflow-x: auto;">
+
+        <div>
+            
+    <a href="https://www.swiggy.com/"><img class="img1" src="../1.png"></a>
+    <ul class="ul1">
+    <a class="other" href="#"> other</a> 
+    <a class="siwg" href="https://www.swiggy.com/about-us">siwggy corporate</a>
+    <a class="search" href="https://www.swiggy.com/search">search</a>
+    <a class="offers" href="https://www.swiggy.com/offers-near-me">offers</a>
+    <a class="help" href="https://www.swiggy.com/support">help</a>
+    <a class="sign" href="#">sign in</a>
+    <a class="cart" href="https://www.swiggy.com/checkout">cart</a>
+            </ul>
+   <p class="p1">What's on your mind?</p><br>
+   <ul>
+ <a href="#"><img class="img2" src="../2-removebg-preview.png"></a>
+ <a href="#" ><img class="img3" src="../images__2_-removebg-preview.png"></a>
+ <a href="#"><img class="img4" src="../images__3_-removebg-preview.png"></a>
+ <a href="#"><img class="img5" src="../images__4_-removebg-preview.png"></a>
+ <a href="#"><img class="img6" src="../50-removebg-preview.png"></a><br>
+   </ul>
+</div>
+ <p class="p2" >Top restaurant chains in Chennai</p><br>
+ <img class="img7" src="../124.avif">
+ <img class="img8" src="../123.avif">
+ <img class="img9" src="../125.avif">
+ <p class="p3">Chinese Wok<br>
+    4 • 35-40 mins <br>
+    Chinese, Asian, Tibetan, Desserts <br>
+    Old Mahabalipuram Road OMR</p><br>
+    <p class="p4">La Pino'z Pizza 
+        4 • 20-25 mins <br>
+        Pizzas, Pastas, Italian,Desserts <br>
+        Sholinganallur</p> <br>
+        <p class="p5">Pizza Hut <br>
+            4.2 • 30-35 mins <br>
+            Pizzas
+            Thoraipakkamms</p>
+
+       </div>
+    </body>
+</html>
